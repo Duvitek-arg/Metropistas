@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A50ACFF12C87B9B00034172C /* MetropistasApp_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50ACFF02C87B9B00034172C /* MetropistasApp_iOSApp.swift */; };
+		A50ACFF32C87B9B00034172C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50ACFF22C87B9B00034172C /* ContentView.swift */; };
+		A50ACFF52C87B9B00034172C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50ACFF42C87B9B00034172C /* Item.swift */; };
+		A50ACFF72C87B9B10034172C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50ACFF62C87B9B10034172C /* Assets.xcassets */; };
+		A50ACFFA2C87B9B10034172C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50ACFF92C87B9B10034172C /* Preview Assets.xcassets */; };
+		A50AD0042C87B9B20034172C /* MetropistasApp_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50AD0032C87B9B20034172C /* MetropistasApp_iOSTests.swift */; };
+		A50AD00E2C87B9B20034172C /* MetropistasApp_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50AD00D2C87B9B20034172C /* MetropistasApp_iOSUITests.swift */; };
+		A50AD0102C87B9B20034172C /* MetropistasApp_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50AD00F2C87B9B20034172C /* MetropistasApp_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A50AD0002C87B9B20034172C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50ACFE52C87B9B00034172C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50ACFEC2C87B9B00034172C;
+			remoteInfo = "MetropistasApp-iOS";
+		};
+		A50AD00A2C87B9B20034172C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50ACFE52C87B9B00034172C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50ACFEC2C87B9B00034172C;
+			remoteInfo = "MetropistasApp-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A50ACFED2C87B9B00034172C /* MetropistasApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MetropistasApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50ACFF02C87B9B00034172C /* MetropistasApp_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetropistasApp_iOSApp.swift; sourceTree = "<group>"; };
+		A50ACFF22C87B9B00034172C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A50ACFF42C87B9B00034172C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A50ACFF62C87B9B10034172C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A50ACFF92C87B9B10034172C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A50ACFFF2C87B9B20034172C /* MetropistasApp-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MetropistasApp-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50AD0032C87B9B20034172C /* MetropistasApp_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetropistasApp_iOSTests.swift; sourceTree = "<group>"; };
+		A50AD0092C87B9B20034172C /* MetropistasApp-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MetropistasApp-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50AD00D2C87B9B20034172C /* MetropistasApp_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetropistasApp_iOSUITests.swift; sourceTree = "<group>"; };
+		A50AD00F2C87B9B20034172C /* MetropistasApp_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetropistasApp_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50ACFEA2C87B9B00034172C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50ACFFC2C87B9B20034172C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50AD0062C87B9B20034172C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50ACFE42C87B9B00034172C = {
+			isa = PBXGroup;
+			children = (
+				A50ACFEF2C87B9B00034172C /* MetropistasApp-iOS */,
+				A50AD0022C87B9B20034172C /* MetropistasApp-iOSTests */,
+				A50AD00C2C87B9B20034172C /* MetropistasApp-iOSUITests */,
+				A50ACFEE2C87B9B00034172C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50ACFEE2C87B9B00034172C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A50ACFED2C87B9B00034172C /* MetropistasApp-iOS.app */,
+				A50ACFFF2C87B9B20034172C /* MetropistasApp-iOSTests.xctest */,
+				A50AD0092C87B9B20034172C /* MetropistasApp-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50ACFEF2C87B9B00034172C /* MetropistasApp-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A50ACFF02C87B9B00034172C /* MetropistasApp_iOSApp.swift */,
+				A50ACFF22C87B9B00034172C /* ContentView.swift */,
+				A50ACFF42C87B9B00034172C /* Item.swift */,
+				A50ACFF62C87B9B10034172C /* Assets.xcassets */,
+				A50ACFF82C87B9B10034172C /* Preview Content */,
+			);
+			path = "MetropistasApp-iOS";
+			sourceTree = "<group>";
+		};
+		A50ACFF82C87B9B10034172C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A50ACFF92C87B9B10034172C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A50AD0022C87B9B20034172C /* MetropistasApp-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A50AD0032C87B9B20034172C /* MetropistasApp_iOSTests.swift */,
+			);
+			path = "MetropistasApp-iOSTests";
+			sourceTree = "<group>";
+		};
+		A50AD00C2C87B9B20034172C /* MetropistasApp-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A50AD00D2C87B9B20034172C /* MetropistasApp_iOSUITests.swift */,
+				A50AD00F2C87B9B20034172C /* MetropistasApp_iOSUITestsLaunchTests.swift */,
+			);
+			path = "MetropistasApp-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50ACFEC2C87B9B00034172C /* MetropistasApp-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50AD0132C87B9B20034172C /* Build configuration list for PBXNativeTarget "MetropistasApp-iOS" */;
+			buildPhases = (
+				A50ACFE92C87B9B00034172C /* Sources */,
+				A50ACFEA2C87B9B00034172C /* Frameworks */,
+				A50ACFEB2C87B9B00034172C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetropistasApp-iOS";
+			productName = "MetropistasApp-iOS";
+			productReference = A50ACFED2C87B9B00034172C /* MetropistasApp-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50ACFFE2C87B9B20034172C /* MetropistasApp-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50AD0162C87B9B20034172C /* Build configuration list for PBXNativeTarget "MetropistasApp-iOSTests" */;
+			buildPhases = (
+				A50ACFFB2C87B9B20034172C /* Sources */,
+				A50ACFFC2C87B9B20034172C /* Frameworks */,
+				A50ACFFD2C87B9B20034172C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50AD0012C87B9B20034172C /* PBXTargetDependency */,
+			);
+			name = "MetropistasApp-iOSTests";
+			productName = "MetropistasApp-iOSTests";
+			productReference = A50ACFFF2C87B9B20034172C /* MetropistasApp-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A50AD0082C87B9B20034172C /* MetropistasApp-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50AD0192C87B9B20034172C /* Build configuration list for PBXNativeTarget "MetropistasApp-iOSUITests" */;
+			buildPhases = (
+				A50AD0052C87B9B20034172C /* Sources */,
+				A50AD0062C87B9B20034172C /* Frameworks */,
+				A50AD0072C87B9B20034172C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50AD00B2C87B9B20034172C /* PBXTargetDependency */,
+			);
+			name = "MetropistasApp-iOSUITests";
+			productName = "MetropistasApp-iOSUITests";
+			productReference = A50AD0092C87B9B20034172C /* MetropistasApp-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50ACFE52C87B9B00034172C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A50ACFEC2C87B9B00034172C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A50ACFFE2C87B9B20034172C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A50ACFEC2C87B9B00034172C;
+					};
+					A50AD0082C87B9B20034172C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A50ACFEC2C87B9B00034172C;
+					};
+				};
+			};
+			buildConfigurationList = A50ACFE82C87B9B00034172C /* Build configuration list for PBXProject "MetropistasApp-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50ACFE42C87B9B00034172C;
+			productRefGroup = A50ACFEE2C87B9B00034172C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50ACFEC2C87B9B00034172C /* MetropistasApp-iOS */,
+				A50ACFFE2C87B9B20034172C /* MetropistasApp-iOSTests */,
+				A50AD0082C87B9B20034172C /* MetropistasApp-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50ACFEB2C87B9B00034172C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50ACFFA2C87B9B10034172C /* Preview Assets.xcassets in Resources */,
+				A50ACFF72C87B9B10034172C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50ACFFD2C87B9B20034172C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50AD0072C87B9B20034172C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50ACFE92C87B9B00034172C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50ACFF32C87B9B00034172C /* ContentView.swift in Sources */,
+				A50ACFF52C87B9B00034172C /* Item.swift in Sources */,
+				A50ACFF12C87B9B00034172C /* MetropistasApp_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50ACFFB2C87B9B20034172C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50AD0042C87B9B20034172C /* MetropistasApp_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50AD0052C87B9B20034172C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50AD0102C87B9B20034172C /* MetropistasApp_iOSUITestsLaunchTests.swift in Sources */,
+				A50AD00E2C87B9B20034172C /* MetropistasApp_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A50AD0012C87B9B20034172C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50ACFEC2C87B9B00034172C /* MetropistasApp-iOS */;
+			targetProxy = A50AD0002C87B9B20034172C /* PBXContainerItemProxy */;
+		};
+		A50AD00B2C87B9B20034172C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50ACFEC2C87B9B00034172C /* MetropistasApp-iOS */;
+			targetProxy = A50AD00A2C87B9B20034172C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A50AD0112C87B9B20034172C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A50AD0122C87B9B20034172C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A50AD0142C87B9B20034172C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetropistasApp-iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metropistas.MetropistasApp-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A50AD0152C87B9B20034172C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetropistasApp-iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metropistas.MetropistasApp-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A50AD0172C87B9B20034172C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metropistas.MetropistasApp-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetropistasApp-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetropistasApp-iOS";
+			};
+			name = Debug;
+		};
+		A50AD0182C87B9B20034172C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metropistas.MetropistasApp-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetropistasApp-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetropistasApp-iOS";
+			};
+			name = Release;
+		};
+		A50AD01A2C87B9B20034172C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metropistas.MetropistasApp-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MetropistasApp-iOS";
+			};
+			name = Debug;
+		};
+		A50AD01B2C87B9B20034172C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.metropistas.MetropistasApp-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MetropistasApp-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A50ACFE82C87B9B00034172C /* Build configuration list for PBXProject "MetropistasApp-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50AD0112C87B9B20034172C /* Debug */,
+				A50AD0122C87B9B20034172C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50AD0132C87B9B20034172C /* Build configuration list for PBXNativeTarget "MetropistasApp-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50AD0142C87B9B20034172C /* Debug */,
+				A50AD0152C87B9B20034172C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50AD0162C87B9B20034172C /* Build configuration list for PBXNativeTarget "MetropistasApp-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50AD0172C87B9B20034172C /* Debug */,
+				A50AD0182C87B9B20034172C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50AD0192C87B9B20034172C /* Build configuration list for PBXNativeTarget "MetropistasApp-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50AD01A2C87B9B20034172C /* Debug */,
+				A50AD01B2C87B9B20034172C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A50ACFE52C87B9B00034172C /* Project object */;
+}
